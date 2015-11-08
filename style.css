@@ -33,6 +33,9 @@ h3 {
 	background-image: url('https://www.mynipp.co.uk/(S(skdotmlsq2ush0234vk4erbp))/images/ZenGardenSand.jpg');
 	background-size: 100%;
 	background-attachment: fixed;
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a {
@@ -107,7 +110,6 @@ MAIN-SUPPORTING
 .explanation {
 	position: relative;
 	width: 50%;
-	left-margin: 10px;
 	max-width: 495px;
 	padding-bottom: 30px;
 	left: 50%;

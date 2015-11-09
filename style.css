@@ -44,11 +44,19 @@ h3:first-letter {
 
 a {
 	text-decoration: none;
- 	transition: all .2s ease-in-out; 
+  	-webkit-transition:all 0.2s ease-in;
+  	-moz-transition:all 0.2s ease-in;
+  	-ms-transition:all 0.2s ease-in;
+  	-o-transition:all 0.2s ease-in;
+  	transition:all 0.2s ease-in;
 }
 
 a:hover {
-	transform: scale(1.1);
+  	-webkit-transform:scale(1.2);
+  	-moz-transform:scale(1.2);
+  	-ms-transform:scale(1.2);
+  	-o-transform:scale(1.2);
+  	transform:scale(1.2);
 }
 
 p {
@@ -231,5 +239,10 @@ aside .wrapper .design-selection .design-name {
 	display: block;
 }
 
+.design-selection ul li a:last-child {
+	visibility: hidden;
+}
 
-
+.design-selection ul li:hover a:last-child {
+	visibility: visible;
+}
